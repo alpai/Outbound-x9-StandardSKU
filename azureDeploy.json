@@ -776,7 +776,7 @@
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Management')]"
                             },
-                            "privateIpAddress": "10.0.0.7"
+                            "privateIpAddress": "10.0.0.8"
                         }
                     }
                 ]
@@ -803,7 +803,7 @@
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Management')]"
                             },
-                            "privateIpAddress": "10.0.0.7"
+                            "privateIpAddress": "10.0.0.9"
                         }
                     }
                 ]
@@ -830,7 +830,7 @@
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Management')]"
                             },
-                            "privateIpAddress": "10.0.0.7"
+                            "privateIpAddress": "10.0.0.10"
                         }
                     }
                 ]
@@ -857,7 +857,7 @@
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Management')]"
                             },
-                            "privateIpAddress": "10.0.0.7"
+                            "privateIpAddress": "10.0.0.11"
                         }
                     }
                 ]
@@ -884,7 +884,7 @@
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Management')]"
                             },
-                            "privateIpAddress": "10.0.0.7"
+                            "privateIpAddress": "10.0.0.12"
                         }
                     }
                 ]
@@ -911,7 +911,7 @@
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Management')]"
                             },
-                            "privateIpAddress": "10.0.0.7"
+                            "privateIpAddress": "10.0.0.13"
                         }
                     }
                 ]
@@ -1012,7 +1012,7 @@
                             "publicIPAddress": {
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', 'IP-FW4-Untrust')]"
                             },
-                            "privateIPAddress": "10.0.1.7",
+                            "privateIPAddress": "10.0.1.8",
                             "privateIPAllocationMethod": "Static",
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Untrust')]"
@@ -1038,7 +1038,7 @@
                             "publicIPAddress": {
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', 'IP-FW5-Untrust')]"
                             },
-                            "privateIPAddress": "10.0.1.7",
+                            "privateIPAddress": "10.0.1.9",
                             "privateIPAllocationMethod": "Static",
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Untrust')]"
@@ -1064,7 +1064,7 @@
                             "publicIPAddress": {
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', 'IP-FW6-Untrust')]"
                             },
-                            "privateIPAddress": "10.0.1.7",
+                            "privateIPAddress": "10.0.1.10",
                             "privateIPAllocationMethod": "Static",
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Untrust')]"
@@ -1090,7 +1090,7 @@
                             "publicIPAddress": {
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', 'IP-FW7-Untrust')]"
                             },
-                            "privateIPAddress": "10.0.1.7",
+                            "privateIPAddress": "10.0.1.11",
                             "privateIPAllocationMethod": "Static",
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Untrust')]"
@@ -1116,7 +1116,7 @@
                             "publicIPAddress": {
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', 'IP-FW8-Untrust')]"
                             },
-                            "privateIPAddress": "10.0.1.7",
+                            "privateIPAddress": "10.0.1.12",
                             "privateIPAllocationMethod": "Static",
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Untrust')]"
@@ -1142,7 +1142,7 @@
                             "publicIPAddress": {
                                 "id": "[resourceId('Microsoft.Network/publicIPAddresses', 'IP-FW9-Untrust')]"
                             },
-                            "privateIPAddress": "10.0.1.7",
+                            "privateIPAddress": "10.0.1.13",
                             "privateIPAllocationMethod": "Static",
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Untrust')]"
@@ -1262,7 +1262,7 @@
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Trust')]"
                             },
-                            "privateIpAddress": "10.0.2.7",
+                            "privateIpAddress": "10.0.2.8",
                             "loadBalancerBackendAddressPools": [
                                 {
                                     "id": "[concat(resourceId('Microsoft.Network/loadBalancers', 'LB-Egress'), '/backendAddressPools/AS-FW')]"
@@ -1292,7 +1292,7 @@
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Trust')]"
                             },
-                            "privateIpAddress": "10.0.2.7",
+                            "privateIpAddress": "10.0.2.9",
                             "loadBalancerBackendAddressPools": [
                                 {
                                     "id": "[concat(resourceId('Microsoft.Network/loadBalancers', 'LB-Egress'), '/backendAddressPools/AS-FW')]"
@@ -1322,7 +1322,7 @@
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Trust')]"
                             },
-                            "privateIpAddress": "10.0.2.7",
+                            "privateIpAddress": "10.0.2.10",
                             "loadBalancerBackendAddressPools": [
                                 {
                                     "id": "[concat(resourceId('Microsoft.Network/loadBalancers', 'LB-Egress'), '/backendAddressPools/AS-FW')]"
@@ -1352,7 +1352,7 @@
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Trust')]"
                             },
-                            "privateIpAddress": "10.0.2.7",
+                            "privateIpAddress": "10.0.2.11",
                             "loadBalancerBackendAddressPools": [
                                 {
                                     "id": "[concat(resourceId('Microsoft.Network/loadBalancers', 'LB-Egress'), '/backendAddressPools/AS-FW')]"
@@ -1382,7 +1382,7 @@
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Trust')]"
                             },
-                            "privateIpAddress": "10.0.2.7",
+                            "privateIpAddress": "10.0.2.12",
                             "loadBalancerBackendAddressPools": [
                                 {
                                     "id": "[concat(resourceId('Microsoft.Network/loadBalancers', 'LB-Egress'), '/backendAddressPools/AS-FW')]"
@@ -1412,7 +1412,7 @@
                             "subnet": {
                                 "id": "[concat(resourceId('Microsoft.Network/virtualNetworks', parameters('vnetName')), '/subnets/Trust')]"
                             },
-                            "privateIpAddress": "10.0.2.7",
+                            "privateIpAddress": "10.0.2.13",
                             "loadBalancerBackendAddressPools": [
                                 {
                                     "id": "[concat(resourceId('Microsoft.Network/loadBalancers', 'LB-Egress'), '/backendAddressPools/AS-FW')]"
